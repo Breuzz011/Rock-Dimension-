@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Dimension | Finalizar Compra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="top-bar">
+        <div class="actions">
+            <a href="index.html">Home</a>
+            <a href="cart.html">Meu Carrinho</a>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Pesquisar...">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="icons">
+            <a href="settings.html"><i class="fas fa-cog"></i></a>
+            <a href="profile.html"><i class="fas fa-user"></i></a>
+        </div>
+    </div>
+    <h1>Rock Dimension</h1>
+</header>
+
+<div class="checkout-container">
+    <h2>Finalizar Compra</h2>
+    <div class="checkout-content">
+        <div class="checkout-form">
+            <form id="payment-form">
+                <h3>Endereço de Entrega</h3>
+                <input type="text" placeholder="Nome Completo" required>
+                <input type="text" placeholder="Endereço" required>
+                <input type="text" placeholder="Cidade" required>
+                <input type="text" placeholder="CEP" required>
+                
+                <h3>Pagamento</h3>
+                <input type="text" placeholder="Número do Cartão" required>
+                <input type="text" placeholder="Nome no Cartão" required>
+                <div class="card-details">
+                    <input type="text" placeholder="MM/AA" required>
+                    <input type="text" placeholder="CVV" required>
+                </div>
+                <button type="submit" class="place-order-btn">Confirmar Pedido</button>
+            </form>
+        </div>
+        <div class="order-summary">
+            <h3>Resumo do Pedido</h3>
+            <div class="order-items-list"></div>
+            <div class="order-total">
+                <p>Total: R$ 0,00</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    &copy; 2026 ROCK DIMENSION | GALERIA DE RARIDADES EM VINIL
+</footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>
